@@ -1,0 +1,74 @@
+{
+    "Work": [
+        {
+            "id": "1",
+            "name": "Youtube-Clone",
+            "slug": "A Youtube Clone website which I made using React and RapidAPI.",
+            "link": "https://github.com/Yuvadi29/Youtube-Clone",
+            "description": "This is the React-created YouTube clone website. The RapidAPI Youtube V3 API was used in this instance. It has features like viewing different genres, using the search bar to look up any of the YouTube channels, playing any video you like, viewing the number of subscribers, likes, and views on a certain video, and receiving suggested videos.",
+            "video": "https://res.cloudinary.com/dcxyc525d/video/upload/v1687582073/Yt_Clone_zluavu.mp4",
+            "live": "https://aditya-youtube-clone.vercel.app/",
+            "image": "https://res.cloudinary.com/dcxyc525d/image/upload/v1687789198/ytclone_oxoj7p.png"
+        },
+        {
+            "id": "2",
+            "name": "Netflix-Clone",
+            "slug": "A Netflix Clone made using React and Netflix Api.",
+            "link": "https://github.com/Yuvadi29/Netflix-Clone",
+            "description": "This app is hosted on Netlify and was created with React JS and Firebase. With the aid of Firebase Authentication, users may log in. Its landing page is identical to that of NETFLIX's official website. The user can access films of many genres after logging in. Users have access to options like Like and Add to list. The user can browse many television show genres as well.",
+            "video": "https://res.cloudinary.com/dcxyc525d/video/upload/v1687783263/Netflix_Clone_fwalvb.mp4",
+            "live": "https://aditya-netflix-clone.vercel.app/login",
+            "image": "https://res.cloudinary.com/dcxyc525d/image/upload/v1687790152/Netflix_tled6k.png"
+        },
+        {
+            "id": "3",
+            "name": "Hackathon-Website",
+            "slug": "A College Hackathon Website completely made using React and Firebase.",
+            "link": "https://github.com/Yuvadi29",
+            "description": "This project, which has been deployed on Firebase, was created using React JS. This is the official website for the VCET HACKATHON 2022, which my team and I worked on together. The website offers thorough information on the hackathon, including the timetable, sponsors, rules, and an easy registration form. We have developed a dynamic and user-friendly platform using React JS that seeks to improve participants' experiences and make it easier for them to participate in the event. Join us on this thrilling adventure as we promote the spirit of collaboration and innovation by bringing innovative minds together through the VCET HACKATHON 2022!",
+            "video": "https://res.cloudinary.com/dcxyc525d/video/upload/v1687584704/Hackathon_Website_qkkomo.mp4",
+            "live": "https://vcet-hackathon.web.app/",
+            "image": "https://res.cloudinary.com/dcxyc525d/image/upload/v1687790315/Hackathon_s9kjzb.png"
+        },
+        {
+            "id": "4",
+            "name": "Hashnode-Channel",
+            "slug": "Coding Adda which is my Startup. This channel belongs to it where i post blogs related to my videos.",
+            "link": "https://hashnode.com/@CodingAdda/",
+            "description": "Welcome to CodingAdda, the premier resource for novices, seasoned developers, and all coding lovers! You've come to the correct place if you're passionate about code, software development, and all things related to coding. Join us on Hashnode as we set off on a fascinating journey of education, knowledge exchange, and community development.We at CodingAdda think that coding is a creative endeavour with the potential to bring concepts to life. Our channel is intended to give you useful tools, insights, and inspiration to support your coding journey, whether you are a novice just starting out in the world of coding or an experienced developer trying to improve your abilities.",
+            "video": "https://res.cloudinary.com/dcxyc525d/video/upload/v1687584935/Hashnode_gsmmnf.mp4",
+            "live": "https://codingadda.hashnode.dev/",
+            "image": "https://res.cloudinary.com/dcxyc525d/image/upload/v1687790405/hashnode_et4unw.png"
+        },
+        {
+            "id": "5",
+            "name": "Find-My-Notes",
+            "slug": "FIND MY NOTES is a Smarter Study Platform that brings the right and smart Techniques, principles and study resources to get studies done. FindMyNotes is a social media for your notes and materials",
+            "link": "https://github.com/Yuvadi29",
+            "description": "FIND MY NOTES is a Smarter Study Platform that brings the right and smart Techniques, principles and study resources to get studies done. FindMyNotes is a social media for your notes and materials. The Best Study material shared by your fellow Students, organized in one place.Committed in providing the best personalised notes in simpler format refined with quality content along with comprehensive, easy to access and even including handwritten segments to students and learners through verified sources and to become the most accessible educational centric platform for sharing and providing notes enriched with efficient discussions on it and reaching out to every corner of the globe by evading the barriers of location,sources and strenuous activities.Hence, increasing the affordability.",
+            "video": "https://res.cloudinary.com/dcxyc525d/video/upload/v1687786900/FindMyNotes_dodaf2.mp4",
+            "live": "https://findmynotes.pythonanywhere.com/",
+            "image": "https://res.cloudinary.com/dcxyc525d/image/upload/v1687790719/FindMyNotes_squf4s.png"
+        },
+        {
+            "id": "6",
+            "name": "Startup Funding App",
+            "slug": "This made a platform for the startups to connect and receive funding from their Potential Investors. I thought about not making a Flutter app which may be helpful for Potential Investors to connect with Startups.",
+            "link": "https://github.com/Yuvadi29/StartUpProject",
+            "description": "Recently we have come across an increasing wave of Startups in India, and also a show Shark Tank India has been very popular. This made a platform for the startups to connect and receive funding from their Potential Investors. I thought about not making a Flutter app which may be helpful for Potential Investors to connect with Startups. This app is a small try to make the most use of Machine Learning Algorithms and help Startup Investors Connect with Startups for Investment. The dataset used here is taken from Kaggle which consists of details of startups from 2014-2021.Let me know how you like it, and what changes can we make to make it more efficient.",
+            "video": "https://res.cloudinary.com/dcxyc525d/video/upload/v1687786248/Venture_Mate_lc27df.mp4",
+            "live": "https://github.com/Yuvadi29/StartUpProject",
+            "image": "https://res.cloudinary.com/dcxyc525d/image/upload/v1687790839/startup_ryuq0o.png"
+        },
+        {
+            "id": "7",
+            "name": "Amazon Clone",
+            "slug": "Full Stack MERN Application with NextJS, Tailwind CSS, and Stripe Payment Gateway.",
+            "link": "https://github.com/Yuvadi29/AmazonClone",
+            "description": " This full-stack MERN application built using Next.js and Tailwind CSS is designed to provide a seamless and efficient online shopping experience. It includes various functionalities and features for both customers and administrators, ensuring a complete e-commerce solution. The integration of the Stripe Payment Gateway further enhances the application by enabling secure and convenient payment processing during checkout.",
+            "video": "https://res.cloudinary.com/dcxyc525d/video/upload/v1690439939/Amazon_Clone_cv9wsr.mp4",
+            "live": "https://github.com/Yuvadi29/AmazonClone",
+            "image": "https://res.cloudinary.com/dcxyc525d/image/upload/v1690440124/amazonClone_in8pu6.png"
+        }
+    ]
+}
