@@ -101,8 +101,8 @@ const Projects = () => {
 
     return (
         <>
-            <main className="flex h-[100vh] items-center justify-center">
-                <div className="w-[1000px] flex flex-col justify-center items-center">
+            <main className="flex h-[100vh] items-center justify-center ">
+                <div className="w-[1000px] flex flex-col justify-center items-center relative">
 
                     {projects.map((project, index) => {
                         return (
