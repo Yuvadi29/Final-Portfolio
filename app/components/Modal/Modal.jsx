@@ -15,15 +15,27 @@ const Modal = ({ modal, projects }) => {
 
   const { active, index } = modal;
   const container = useRef(null);
+  const cursor = useRef(null);
+  const cursorLabel = useRef(null);
 
   useEffect(() => {
     const moveContainerX = gsap.quickTo(container.current, "left", { duration: 0.8, ease: "power3" })
     const moveContainerY = gsap.quickTo(container.current, "top", { duration: 0.8, ease: "power3" })
 
+    const moveCursorX = gsap.quickTo(cursor.current, "left", { duration: 0.5, ease: "power3" })
+    const moveCursorY = gsap.quickTo(cursor.current, "top", { duration: 0.5, ease: "power3" })
+
+    const moveCursorLabelX = gsap.quickTo(cursorLabel.current, "left", { duration: 0.45, ease: "power3" })
+    const moveCursorLabelY = gsap.quickTo(cursorLabel.current, "top", { duration: 0.45, ease: "power3" })
+
     window.addEventListener('mousemove', (e) => {
       const { clientX, clientY } = e;
       moveContainerX(clientX)
       moveContainerY(clientY)
+      moveCursorX(clientX)
+      moveCursorY(clientY)
+      moveCursorLabelX(clientX)
+      moveCursorLabelY(clientY)
     });
 
   }, []);
@@ -53,6 +65,18 @@ const Modal = ({ modal, projects }) => {
           }
         </div>
       </motion.div >
+      <motion.div
+        ref={cursor}
+        variants={ScaleAnimation}
+        initial="initial"
+        animate={active ? "open" : "closed"}
+        className="w-[80px] h-[80px] bg-[#455CE9] absolute pointer-events-none rounded-[50%] flex justify-center items-center text-white"></motion.div>
+      <motion.div
+        ref={cursorLabel}
+        variants={ScaleAnimation}
+        initial="initial"
+        animate={active ? "open" : "closed"}
+        className="w-[80px] h-[80px] bg-[#455CE9] absolute pointer-events-none rounded-[50%] flex justify-center items-center text-white bg-transparent">View</motion.div>
     </>
   )
 }
